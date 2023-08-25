@@ -55,7 +55,7 @@
 <a name="about-the-project"></a>
 ## ℹ️ Sobre o projeto
 
-
+<a name="built-with"></a>
 ### Tecnologias utilizadas
 
 ![Next.js][Next]![React][React]![TypeScript][TypeScript]![Tailwind CSS][tailwind]![SQLite][SQLite]
@@ -66,13 +66,13 @@
 ## 🚀 Rodando localmente
 
 To get a local copy up and running follow these simple steps.
-
+<a name="prerequisites"></a>
 ### Pré-requisitos
 
 - [Node.js](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
-
+<a name="installation"></a>
 ### Instalação
 
 1. Clone esse repositório
