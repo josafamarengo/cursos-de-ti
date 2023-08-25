@@ -17,9 +17,9 @@
     <br />
     <a href="">Acesse a plataforma</a>
     ·
-    <a href="https://github.com/josafamarengo/cursos-de-ti/issues">Report Bug</a>
+    <a href="https://github.com/josafamarengo/ead-ti/issues">Report Bug</a>
     ·
-    <a href="https://github.com/josafamarengo/cursos-de-ti/issues">Request Feature</a>
+    <a href="https://github.com/josafamarengo/ead-ti/issues">Request Feature</a>
   </p>
 
 </div>
@@ -40,7 +40,13 @@
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Como contribuir</a></li>
+    <li>
+      <a href="#contributing">Contribuições</a>
+      <ul>
+      <li><a href="#how-to-contribute">Como contribuir</a></li>
+        <li><a href="#reporting-bugs">Reportando bugs</a></li>
+      </ul>
+    </li>
     <li><a href="#license">Licença</a></li>
     <li><a href="#contact">Contato</a></li>
     <li><a href="#acknowledgments">Fontes</a></li>
@@ -54,7 +60,7 @@
 
 ![Next.js][Next]![React][React]![TypeScript][TypeScript]![Tailwind CSS][tailwind]![SQLite][SQLite]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volte ao topo</a>)</p>
 
 <a name="getting-started"></a>
 ## 🚀 Rodando localmente
@@ -69,109 +75,100 @@ To get a local copy up and running follow these simple steps.
 
 ### Instalação
 
-1. Clone the repo
+1. Clone esse repositório
 
 ```bash
-
-git clone https://github.com/josafamarengo/cursos-de-ti.git
-
+git clone https://github.com/josafamarengo/ead-ti.git
 ```
 
-2. Go to project folder
+2. Entre na pasta do projeto
 
 ```bash
-
-cd cursos-de-ti
-
+cd ead-ti
 ```
 
-3. Install packages
+3. Instale as dependências
 
 ```bash
-
 npm install
-
 ```
 
-OR
+OU
 
 ```bash
-
 yarn
-
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volte ao topo</a>)</p>
 
 <a name="roadmap"></a>
+
 ## 🗺️ Roadmap
 
-See the [open issues](https://github.com/josafamarengo/cursos-de-ti/issues) for a list of proposed features (and known issues).
+Veja as [issues abertas](https://github.com/josafamarengo/ead-ti/issues) para uma lista de funcionalidades propostas (e problemas conhecidos).
 
 
 <a name="contributing"></a>
-## 👥 Como contribuir
 
-Any contributions you make are **greatly appreciated**. Before you get started, please take a moment to review our Code of Conduct and Contributing Guidelines.
+## 👥 Contribuições
 
-### How to Contribute
+Qualquer contribuição que você fizer será **muito bem-vinda**.
+
+<a name="how-to-contribute"></a>
+
+### Como contribuir
 
 <ol>
-  <li>Fork this repository to your own GitHub account.</li>
-  <li>Follow the steps on <a href="#getting-started">Getting Started Section</a>.</li>
-  <li>Create a new branch for your:</li>
+  <li>Faça um fork do repositório</li>
+  <li>Siga os passos da sessão <a href="#getting-started">Rodando Localmente</a>.</li>
+  <li>Crie uma nova branch para:</li>
     <ol>
-      <li>Feature <code>git checkout -b feature/your-feature</code></li>
-      <li>Bug fix <code>git checkout -b bugfix/bug</code></li>
-      <li>Docs, improvments, refactoring, optmizing,... <code>git checkout -b requirement/your-requirement</code>.</li>
+      <li><strong>Nova funcionalidade:</strong> 
+      <pre>git checkout -b feature/[funcionalidade-criada]</pre>
+      </li>
+      <li><strong>Correção de bug</strong>
+        <pre>git checkout -b bugfix/[bug-corrigido]</pre>
+      </li>
+      <li><strong>Documentação, melhorias, refatoração,...</strong>
+        <pre>git checkout -b requirement/[melhoria]</pre>
+      </li>
     </ol>
-  <!-- <li>Make your changes and ensure they pass the tests by running <code>npm test</code> or <code>yarn test</code>.</li> -->
-  <li>Commit your changes with clear and concise commit messages following the <a href="https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines">Angular commit convention</a></li>
-  <li>Push your changes to your forked repository.</li>
-  <li>Submit a pull request to our repository with a description of your changes.</li>
+  <li>Faça as mudanças e certifique-se que passe nos testes usando o comando <code>npm test</code> ou <code>yarn test</code>.</li>
+  <li>Faça os commits usando mensagens claras e concisas, seguindo a <a href="https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines">Angular commit convention</a></li>
+  <li>Faça o push para o seu repositório forkado.</li>
+  <li>Faça o pull request para esse repositório, com uma descrição clara das alterações feitas.</li>
 </ol>
 
-Please make sure to write clear commit messages and to follow our coding conventions. We appreciate your contributions and will review them as soon as possible!
+<a name="reporting-bugs"></a>
 
+### Reportando bugs
 
-### Issue Tracker
+Reporte bugs usando o [issue tracker](https://github.com/josafamarengo/ead-ti/issues). Descreva o bug com o máximo de detalhes possível, incluindo como reproduzir o erro.
 
-If you encounter any bugs or have feature requests, please open an issue on our [Issue Tracker][issues-url]. Be sure to include a clear and concise description of the issue, any steps needed to reproduce the problem, and any relevant code snippets.
-
-### Code of Conduct
-
-Please review our Code of Conduct before contributing. We expect all contributors to abide by the principles outlined in the document.
-
-### Contributing Guidelines
-
-Please review our Contributing Guidelines before contributing. These guidelines will provide details on how to contribute to the project, the coding standards we follow, and the development process we use.
-
-### Attribution
-
-This Contributing section is adapted from the Contributing Guidelines template created by PurpleBooth.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volte ao topo</a>)</p>
 
 <a name="license"></a>
-## 📜 License
 
-Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
+## 📜 Licença
+
+Distribuído sob a licença GPL-3.0. Veja `LICENSE` para mais informações.
 
 <a name="contact"></a>
-## 📧 Contact
+
+## 📧 Contatos
 
 [![Linkedin][linkedin-shield]][linkedin-url]
 [![Email][email-shield]][email-url]
 [![Portfolio][site-shield]][site-url]
 
 <a name="acknowledgments"></a>
-## 🙏 Acknowledgments
+
+## 🙏 Fontes
 
 - [Elearning icons created by vectorsmarket15 - Flaticon](https://www.flaticon.com/free-icons/elearning)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volte ao topo</a>)</p>
 
 <div align="center">
   <sub>Built with ❤︎ by <a href="https://josafa.com.br">Josafá Marengo</a>
@@ -181,19 +178,19 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- REPO LINK -->
-[repo-url]: https://github.com/josafamarengo/cursos-de-ti
-[issues-url]: https://github.com/josafamarengo/cursos-de-ti/issues
+[repo-url]: https://github.com/josafamarengo/ead-ti
+[issues-url]: https://github.com/josafamarengo/ead-ti/issues
 
-[contributors-shield]: https://img.shields.io/github/contributors/josafamarengo/cursos-de-ti.svg?style=flat
-[contributors-url]: https://github.com/josafamarengo/cursos-de-ti/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/josafamarengo/cursos-de-ti.svg?style=flat
-[forks-url]: https://github.com/josafamarengo/cursos-de-ti/network/members
-[stars-shield]: https://img.shields.io/github/stars/josafamarengo/cursos-de-ti.svg?style=flat
-[stars-url]: https://github.com/josafamarengo/cursos-de-ti/stargazers
-[issues-shield]: https://img.shields.io/github/issues/josafamarengo/cursos-de-ti.svg?style=flat
-[issues-url]: https://github.com/josafamarengo/cursos-de-ti/issues
+[contributors-shield]: https://img.shields.io/github/contributors/josafamarengo/ead-ti.svg?style=flat
+[contributors-url]: https://github.com/josafamarengo/ead-ti/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/josafamarengo/ead-ti.svg?style=flat
+[forks-url]: https://github.com/josafamarengo/ead-ti/network/members
+[stars-shield]: https://img.shields.io/github/stars/josafamarengo/ead-ti.svg?style=flat
+[stars-url]: https://github.com/josafamarengo/ead-ti/stargazers
+[issues-shield]: https://img.shields.io/github/issues/josafamarengo/ead-ti.svg?style=flat
+[issues-url]: https://github.com/josafamarengo/ead-ti/issues
 [license-shield]: https://img.shields.io/badge/License-GPL%20v3-blue.svg
-[license-url]: https://github.com/josafamarengo/cursos-de-ti/blob/main/LICENSE.md
+[license-url]: https://github.com/josafamarengo/ead-ti/blob/main/LICENSE.md
 
 <!-- SOCIAL LINKS -->
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white
